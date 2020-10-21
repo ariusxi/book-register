@@ -1,0 +1,9 @@
+<toolbar></toolbar>
+<main>
+    <book-form
+        (bookRegister)="onBookRegistered($event)"
+    ></book-form>
+    <book-list
+        [booksList]="booksList"
+    ></book-list>
+</main>
